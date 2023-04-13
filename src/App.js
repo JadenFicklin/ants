@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import BasicWorker from './components/ants/BasicWorker';
+import SugarCrumb from './components/food/SugarCrumb';
+import BasicHill from './components/hill/BasicHill';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <BasicWorker />
+            <SugarCrumb />
+            <BasicHill />
+        </>
+    );
 }
 
 export default App;
