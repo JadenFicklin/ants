@@ -1,14 +1,11 @@
+import React from 'react';
 import './App.css';
-import BasicWorker from './components/ants/BasicWorker';
-import SugarCrumb from './components/food/SugarCrumb';
-import BasicHill from './components/hill/BasicHill';
+import Ants from './components/ants/Ants';
 
 function App() {
     return (
         <>
-            <BasicWorker />
-            <SugarCrumb />
-            <BasicHill />
+            <Ants />
         </>
     );
 }
